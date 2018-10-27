@@ -126,3 +126,12 @@ More strangely, your client may not even needs to store all of the historical da
 __This is where the concurrent design part kicks in__
 
 ## Concurrent Design and Structural Mismatch
+Before I dive into discussions, let's consider the following real world working examples.
+### Data Visuallization with Different Data Source and Targeting Charts
+Python
+### Frontend with Same Data and Different UI
+JavaScript
+### A Statistics Server
+Go
+
+2 out of 3 exampls above are web examples. We can even say most of our day to day programming work is about solving strucutral mismatch problems.
