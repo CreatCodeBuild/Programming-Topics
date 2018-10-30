@@ -125,13 +125,11 @@ More strangely, your client may not even needs to store all of the historical da
 
 __This is where the concurrent design part kicks in__
 
-## Concurrent Design and Structural Mismatch
-Before I dive into discussions, let's consider the following real world working examples.
-### Data Visuallization with Different Data Source and Targeting Charts
-Python
-### Frontend with Same Data and Different UI
-JavaScript
-### A Statistics Server
-Go
+Believe or not, I think GUI and Data Visualization are best examples to demonstrate here.
 
-2 out of 3 exampls above are web examples. We can even say most of our day to day programming work is about solving strucutral mismatch problems.
+## Data Visualization
+Data visualization might be the hardest type of problems I have ever encountered in computer programming. Probably it's because the structural difference between the data and the graph are so huge.
+
+GUI, in a sense, is similar to data visualization. It's like a easier version of data visualization because the design of GUI components are pretty similar to each other and if you are programming for a browser, you use HTML & CSS. You don't get an easier GUI system than this.
+
+So, for the sake of fun, let's try to create a data visualization.
